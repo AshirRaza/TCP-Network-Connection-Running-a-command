@@ -1,7 +1,7 @@
 # TCP-Network-Connection-Running-a-command
 The following program is a computer network implementation using TCP communication model. The communication takes place between the client which is the user, and the server where the user command will be executed
 
-#Program Working: 
+# Program Working: 
 1.	The server turns on and a server side socket is created. The socket () function is used to create the socket and this function will return the socket ID which will then be used in communication throughout the program. The port number is hardcoded which is 8080. 
 2.	If the socket creation function fails, an error message is printed. 
 3.	Once the socket is created successfully, the socket binding process takes place. Binding is when the socket is assigned a port number and an IP address. The IP address of the server is automatically known which is of the device. 
